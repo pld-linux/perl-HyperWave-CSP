@@ -3,7 +3,7 @@ Summary:	HyperWave-CSP perl module
 Summary(pl):	Modu³ perla HyperWave-CSP
 Name:		perl-HyperWave-CSP
 Version:	0.03.1
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
