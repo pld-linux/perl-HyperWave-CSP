@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HyperWave
 %define	pnam	CSP
-Summary:	HyperWave-CSP perl module
-Summary(pl):	Modu³ perla HyperWave-CSP
+Summary:	HyperWave::CSP perl module
+Summary(pl):	Modu³ perla HyperWave::CSP
 Name:		perl-HyperWave-CSP
 Version:	0.03.1
 Release:	8
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HyperWave-CSP is a class implementing a simple HyperWave client in
+HyperWave::CSP is a class implementing a simple HyperWave client in
 Perl.
 
 %description -l pl
-HyperWave-CSP jest implementacj± prostego klienta HyperWave dla perla.
+HyperWave::CSP jest implementacj± prostego klienta HyperWave dla perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
