@@ -1,3 +1,8 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test"
+			# require server connection
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	HyperWave
 %define		pnam	CSP
@@ -32,6 +37,8 @@ HyperWave.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
