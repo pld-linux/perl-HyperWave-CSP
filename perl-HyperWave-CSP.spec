@@ -41,7 +41,7 @@ HyperWave::CSP jest implementacj± prostego klienta HyperWave dla perla.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
