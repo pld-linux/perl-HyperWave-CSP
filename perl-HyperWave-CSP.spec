@@ -10,7 +10,7 @@ Summary(fr):	Module Perl HyperWave::CSP
 Summary(it):	Modulo di Perl HyperWave::CSP
 Summary(ja):	HyperWave::CSP Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	HyperWave::CSP ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul HyperWave::CSP
+Summary(nb):	Perlmodul HyperWave::CSP
 Summary(pl):	Modu³ Perla HyperWave::CSP
 Summary(pt):	Módulo de Perl HyperWave::CSP
 Summary(pt_BR):	Módulo Perl HyperWave::CSP
