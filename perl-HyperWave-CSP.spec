@@ -21,7 +21,8 @@ Summary(zh_CN):	HyperWave::CSP Perl Ä£¿é
 Name:		perl-HyperWave-CSP
 Version:	0.03.1
 Release:	10
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a596136b7b87e7db9396a0c2aa3d26a4
