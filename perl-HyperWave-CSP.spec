@@ -4,8 +4,8 @@
 			# require server connection
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HyperWave
-%define	pnam	CSP
+%define		pdir	HyperWave
+%define		pnam	CSP
 Summary:	HyperWave::CSP - communicate with a HyperWave server
 Summary(pl):	HyperWave::CSP - ³±czenie z serwerem HyperWave
 Name:		perl-HyperWave-CSP
