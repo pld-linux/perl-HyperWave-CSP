@@ -10,7 +10,7 @@ Summary:	HyperWave::CSP - communicate with a HyperWave server
 Summary(pl):	HyperWave::CSP - ³±czenie z serwerem HyperWave
 Name:		perl-HyperWave-CSP
 Version:	0.03.1
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
