@@ -20,11 +20,11 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl HyperWave::CSP
 Summary(zh_CN):	HyperWave::CSP Perl Ä£¿é
 Name:		perl-HyperWave-CSP
 Version:	0.03.1
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Locale-Codes
 BuildArch:	noarch
@@ -41,7 +41,8 @@ HyperWave::CSP jest implementacj± prostego klienta HyperWave dla perla.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -58,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO
-%{perl_sitelib}/HyperWave
+%{perl_vendorlib}/HyperWave
 %{_mandir}/man3/*
 %dir %{_examplesdir}/%{name}-%{version}
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}/*
