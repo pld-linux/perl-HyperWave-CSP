@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl HyperWave::CSP
 Summary(zh_CN):	HyperWave::CSP Perl дё©И
 Name:		perl-HyperWave-CSP
 Version:	0.03.1
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
