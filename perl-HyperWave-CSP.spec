@@ -7,7 +7,7 @@
 %define		pdir	HyperWave
 %define		pnam	CSP
 Summary:	HyperWave::CSP - communicate with a HyperWave server
-Summary(pl):	HyperWave::CSP - ³±czenie z serwerem HyperWave
+Summary(pl.UTF-8):   HyperWave::CSP - Å‚Ä…czenie z serwerem HyperWave
 Name:		perl-HyperWave-CSP
 Version:	0.03.1
 Release:	11
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HyperWave::CSP is a class implementing a simple HyperWave client in
 Perl.
 
-%description -l pl
-Klasa HyperWave::CSP jest implementacj± w Perlu prostego klienta
+%description -l pl.UTF-8
+Klasa HyperWave::CSP jest implementacjÄ… w Perlu prostego klienta
 HyperWave.
 
 %prep
