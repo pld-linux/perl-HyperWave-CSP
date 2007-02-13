@@ -7,7 +7,7 @@
 %define		pdir	HyperWave
 %define		pnam	CSP
 Summary:	HyperWave::CSP - communicate with a HyperWave server
-Summary(pl.UTF-8):   HyperWave::CSP - łączenie z serwerem HyperWave
+Summary(pl.UTF-8):	HyperWave::CSP - łączenie z serwerem HyperWave
 Name:		perl-HyperWave-CSP
 Version:	0.03.1
 Release:	11
