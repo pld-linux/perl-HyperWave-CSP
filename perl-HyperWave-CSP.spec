@@ -2,10 +2,10 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 			# require server connection
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	HyperWave
 %define		pnam	CSP
+%include	/usr/lib/rpm/macros.perl
 Summary:	HyperWave::CSP - communicate with a HyperWave server
 Summary(pl.UTF-8):	HyperWave::CSP - łączenie z serwerem HyperWave
 Name:		perl-HyperWave-CSP
@@ -16,9 +16,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a596136b7b87e7db9396a0c2aa3d26a4
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/HyperWave-CSP/
 BuildRequires:	perl-Locale-Codes
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,7 +48,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
